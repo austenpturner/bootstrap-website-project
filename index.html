@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
@@ -94,7 +95,7 @@
               />
               <a
                 href="#"
-                class="position-absolute top-50 start-50 translate-middle"
+                class="glightbox position-absolute top-50 start-50 translate-middle"
               >
                 <span>
                   <i class="fas fa-play-circle"></i>
@@ -119,6 +120,16 @@
       </svg>
     </section>
 
+    <script src="/assets/vendors/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        href: "https://www.youtube.com/watch?v=Uimyetd3PNo",
+        type: "video",
+        source: "youtube", //vimeo, youtube or local
+        width: 900,
+        autoPlayVideos: "true",
+      });
+    </script>
     <script src="assets/js/bootstrap.bundle.js"></script>
   </body>
 </html>
