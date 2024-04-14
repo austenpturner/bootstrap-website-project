@@ -20,3 +20,22 @@
     }
   }
 }
+
+// HEADING LINE
+.heading-line::before {
+  content: "";
+  background-color: $primary;
+  display: block;
+  margin: 0 auto;
+  width: 10rem;
+  height: 0.1rem;
+}
+.heading-line::after {
+  content: "";
+  background-color: $primary;
+  display: block;
+  margin: 0 auto 1rem;
+  padding-top: 0.5rem;
+  width: 2rem;
+  height: 0.2rem;
+}
