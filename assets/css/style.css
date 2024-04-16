@@ -12200,7 +12200,6 @@ textarea.form-control-lg {
   position: relative;
 }
 .contact-box__icon {
-  padding-top: 0.5rem;
   width: 2rem;
   stroke: #9926f0;
 }
@@ -12237,6 +12236,9 @@ textarea.form-control-lg {
 .footer-sm {
   background-color: #212121;
 }
+.footer-sm p {
+  text-align: center;
+}
 .footer-sm a {
   color: #fff;
 }
@@ -12250,20 +12252,24 @@ textarea.form-control-lg {
   }
 }
 
-.company-list {
+.company-list-container .hr-footer {
+  width: 60px;
+  height: 2px;
+}
+.company-list-container .company-list {
   display: block;
   list-style-type: none;
   position: relative;
 }
-.company-list li {
+.company-list-container .company-list li {
   margin-bottom: 0.5rem;
   text-decoration: none;
 }
-.company-list li a {
+.company-list-container .company-list li a {
   color: #fff;
   text-decoration: none;
 }
-.company-list li a:hover {
+.company-list-container .company-list li a:hover {
   color: #9926f0;
 }
 
@@ -12273,6 +12279,7 @@ textarea.form-control-lg {
 .footer-bottom__copyright {
   color: #6c757d;
   font-weight: 400;
+  text-align: center;
 }
 .footer-bottom__copyright a {
   color: #dee2e6;

@@ -2,7 +2,7 @@
 @use "../components/mixins" as *;
 
 .footer {
-  background-color: $footer;
+  background-color: $footer-black;
   padding-top: 1rem;
 }
 
@@ -10,7 +10,6 @@
 .contact-box {
   position: relative;
   &__icon {
-    padding-top: 0.5rem;
     width: 2rem;
     stroke: $primary;
     @include media-breakpoint-up(sm) {
@@ -41,7 +40,10 @@
 
 // SOCIAL MEDIA CONTENT
 .footer-sm {
-  background-color: #212121;
+  background-color: $footer-gray;
+  p {
+    text-align: center;
+  }
   a {
     color: $white;
     i {
@@ -54,18 +56,24 @@
   }
 }
 
-.company-list {
-  display: block;
-  list-style-type: none;
-  position: relative;
-  li {
-    margin-bottom: 0.5rem;
-    text-decoration: none;
-    a {
-      color: $white;
+.company-list-container {
+  .hr-footer {
+    width: 60px;
+    height: 2px;
+  }
+  .company-list {
+    display: block;
+    list-style-type: none;
+    position: relative;
+    li {
+      margin-bottom: 0.5rem;
       text-decoration: none;
-      &:hover {
-        color: $primary;
+      a {
+        color: $white;
+        text-decoration: none;
+        &:hover {
+          color: $primary;
+        }
       }
     }
   }
@@ -77,6 +85,7 @@
   &__copyright {
     color: $gray-600;
     font-weight: 400;
+    text-align: center;
     a {
       color: $gray-300;
       text-decoration: none;
