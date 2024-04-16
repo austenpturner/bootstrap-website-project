@@ -11971,6 +11971,14 @@ textarea.form-control-lg {
   color: #fff !important;
   text-transform: capitalize;
 }
+.menu .phone-btn {
+  margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .menu .phone-btn {
+    margin-bottom: 0;
+  }
+}
 
 .intro-section {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
