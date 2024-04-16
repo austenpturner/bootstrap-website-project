@@ -12,15 +12,32 @@
 
 ## Changes I made after following along:
 
+* Navbar:
+  * Add margin bottom to phone number button on nav drop down (small and medium screens)
+  * Remove bold font weight from nav items
+ 
+* Services section:
+  * Add media query for left column border so it only shows up on medium to large screens
+  * add d-flex to service containers, change flex-direction to column-reverse on second service so all service text & images are in the same order on small screens, then alternate on large sreens
+  * edit services margin and padding
+  * make images smaller on small screens
+ 
+* Testimonials:
+  * Remove inline styles from horizontal rule, add class, and add styles to scss file instead
+
+* Portfolio:
+  * Add cursor: pointer on hover to project images
+
 * Footer:
   * Changing spacing by adding padding, removing margin automatically added by Bootstrap, and center aligning text
   * Making variables for all colors used by added to _custom.scss
   * Remove inline styles and add to scss files instead
 
-
 ## Changes I would make if I continued working on this project:
 
-...
+* Go through and clean up scss files more (i.e., ensure DRY code, reuse styles for headers and hrs)
+* Make more mixins, bits or reusable scss
+* Make sure all colors have variables (i.e., rgba values)
 
 ## What I learned:
 * How to customize Bootstrap variables and styles
