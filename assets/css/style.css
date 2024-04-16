@@ -12089,6 +12089,10 @@ textarea.form-control-lg {
   padding: 0;
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
+.testimonials .hr-testimonials {
+  width: 100px;
+  height: 3px;
+}
 .testimonials__card {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 2rem 1.25rem;
