@@ -12145,6 +12145,9 @@ textarea.form-control-lg {
   width: 100%;
   max-height: 18.5rem;
 }
+.portfolio-box:hover {
+  cursor: pointer;
+}
 .portfolio-box img {
   width: 100%;
 }
