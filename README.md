@@ -8,15 +8,6 @@
 ### Video of website on large screens, highlighing hover effects and back-to-top button:
 ![Gif of website on large screens, highlighting hover effects and back to top button](images/screenshots/videos/bootstrapWebsitePracticeLG.gif)
 
-
-### Screenshots of website on mobile devices:
-![Intro section on mobile screenshot](images/screenshots/images/intro-mobile.jpeg)
-![Drop down navbar on mobile screenshot](images/screenshots/images/navbar-mobile.jpeg)
-![Services section on mobile screenshot](images/screenshots/images/services-mobile.jpeg)
-![Portfolio section on mobile screenshot](images/screenshots/images/portfolio-mobile.jpeg)
-![Testimonials section on mobile screenshot](images/screenshots/images/testimonials-mobile.jpeg)
-![Contact form on mobile screenshot](images/screenshots/images/contact-mobile.jpeg)
-
 ## Changes I made while following along:
 
 * Only using one H1 on the page, and switching to H2 or H3 for sections following the intro
