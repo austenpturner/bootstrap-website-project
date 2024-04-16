@@ -12,7 +12,10 @@
 
 ## Changes I made after following along:
 
-...
+* Footer:
+  * Changing spacing by adding padding, removing margin automatically added by Bootstrap, and center aligning text
+  * Making variables for all colors used by added to _custom.scss
+  * Remove inline styles and add to scss files instead
 
 
 ## Changes I would make if I continued working on this project:
