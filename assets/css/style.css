@@ -12034,6 +12034,11 @@ textarea.form-control-lg {
   position: relative;
   padding: 1rem 0;
 }
+@media (min-width: 768px) {
+  .services .border-col {
+    border-right: 1px solid #dee2e6;
+  }
+}
 .services__content {
   padding: 1rem;
   margin-top: 0;
